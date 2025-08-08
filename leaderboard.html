@@ -1,0 +1,212 @@
+
+<html>
+<head>
+    <title>Model Evaluation Leaderboard</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        h2 {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+<h2>Model Evaluation Leaderboard (BERTScore & ROUGE-L)</h2>
+
+<table>
+    <thead>
+        <tr>
+            <th>Model</th>
+            <th>BERTScore F1</th>
+            <th>ROUGE-L F1</th>
+        </tr>
+    </thead>
+    <tbody>
+
+            <tr>
+                <td>gpt4</td>
+                <td>0.8038</td>
+                <td>0.0457</td>
+            </tr>
+            
+            <tr>
+                <td>qwen3-latest</td>
+                <td>1.0000</td>
+                <td>1.0000</td>
+            </tr>
+            
+            <tr>
+                <td>deepseek-r1-70b-alt</td>
+                <td>0.8577</td>
+                <td>0.1915</td>
+            </tr>
+            
+            <tr>
+                <td>deepseek-r1-70b-alt</td>
+                <td>0.8577</td>
+                <td>0.1915</td>
+            </tr>
+            
+            <tr>
+                <td>gemma3-27b</td>
+                <td>0.8279</td>
+                <td>0.1455</td>
+            </tr>
+            
+            <tr>
+                <td>gpt4</td>
+                <td>0.8038</td>
+                <td>0.0457</td>
+            </tr>
+            
+            <tr>
+                <td>deepseek-r1-70b-alt</td>
+                <td>0.8577</td>
+                <td>0.1915</td>
+            </tr>
+            
+            <tr>
+                <td>gemma3-27b</td>
+                <td>0.8279</td>
+                <td>0.1455</td>
+            </tr>
+            
+            <tr>
+                <td>llama4-400b</td>
+                <td>0.8216</td>
+                <td>0.0916</td>
+            </tr>
+            
+            <tr>
+                <td>deepseek-r1-70b-alt</td>
+                <td>0.8577</td>
+                <td>0.1915</td>
+            </tr>
+            
+            <tr>
+                <td>gemma3-27b</td>
+                <td>0.8279</td>
+                <td>0.1455</td>
+            </tr>
+            
+            <tr>
+                <td>llama4-400b</td>
+                <td>0.8216</td>
+                <td>0.0916</td>
+            </tr>
+            
+            <tr>
+                <td>mistral-small3.1-latest</td>
+                <td>0.8280</td>
+                <td>0.1195</td>
+            </tr>
+            
+            <tr>
+                <td>mistral-small3.1-latestllama4-400bgemma3-27bdeepseek-r1-70b-alt</td>
+                <td>0.7691</td>
+                <td>0.0021</td>
+            </tr>
+            
+            <tr>
+                <td>deepseek-r1-70b-alt</td>
+                <td>0.8577</td>
+                <td>0.1915</td>
+            </tr>
+            
+            <tr>
+                <td>gemma3-27b</td>
+                <td>0.8279</td>
+                <td>0.1455</td>
+            </tr>
+            
+            <tr>
+                <td>llama4-400b</td>
+                <td>0.8216</td>
+                <td>0.0916</td>
+            </tr>
+            
+            <tr>
+                <td>mistral-small3.1-latest</td>
+                <td>0.8280</td>
+                <td>0.1195</td>
+            </tr>
+            
+            <tr>
+                <td>mistral-small3.1-latestllama4-400bgemma3-27bdeepseek-r1-70b-alt</td>
+                <td>0.7691</td>
+                <td>0.0021</td>
+            </tr>
+            
+            <tr>
+                <td>qwen2.5-latest</td>
+                <td>0.7868</td>
+                <td>0.0634</td>
+            </tr>
+            
+            <tr>
+                <td>qwen3-0.6b</td>
+                <td>0.8567</td>
+                <td>0.2121</td>
+            </tr>
+            
+            <tr>
+                <td>qwen3-latest</td>
+                <td>1.0000</td>
+                <td>1.0000</td>
+            </tr>
+            
+    </tbody>
+</table>
+
+<h2>LLM as a Judge - Win/Loss/Tie Results</h2>
+
+<table>
+    <thead>
+        <tr>
+            <th>Model</th>
+            <th>Wins</th>
+            <th>Losses</th>
+            <th>Ties</th>
+        </tr>
+    </thead>
+    <tbody>
+
+    <tr>
+        <td>qwen3-latest</td>
+        <td>500</td>
+        <td>200</td>
+        <td>50</td>
+    </tr>
+    
+    <tr>
+        <td>deepseek-r1-70b-alt</td>
+        <td>450</td>
+        <td>250</td>
+        <td>30</td>
+    </tr>
+    
+    <tr>
+        <td>gemma3-27b</td>
+        <td>400</td>
+        <td>300</td>
+        <td>100</td>
+    </tr>
+    
+    </tbody>
+</table>
+
+</body>
+</html>

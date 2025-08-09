@@ -1,0 +1,26 @@
+[
+  {
+    "model": "llama4:400b",
+    "id": 97,
+    "condition": "chat_only",
+    "error": "llama runner process has terminated: cudaMalloc failed: out of memory (status code: 500)"
+  },
+  {
+    "model": "llama4:400b",
+    "id": 97,
+    "condition": "persona_only",
+    "error": "llama runner process has terminated: cudaMalloc failed: out of memory (status code: 500)"
+  },
+  {
+    "model": "llama4:400b",
+    "id": 97,
+    "condition": "persona_plus_chat",
+    "error": "llama runner process has terminated: cudaMalloc failed: out of memory\nalloc_tensor_range: failed to allocate ROCm1 buffer of size 81967513600 (status code: 500)"
+  },
+  {
+    "model": "llama4:400b",
+    "id": 98,
+    "condition": "chat_only",
+    "error": "llama runner process has terminated: cudaMalloc failed: out of memory\nalloc_tensor_range: failed to allocate ROCm1 buffer of size 81967513600 (status code: 500)"
+  }
+]
